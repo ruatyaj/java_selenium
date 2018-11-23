@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ru.raiffeisen.training.AppTest2
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.144 s <<< FAILURE! - in ru.raiffeisen.training.AppTest2
+testSummatorFromFile[3](ru.raiffeisen.training.AppTest2)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: expected:<190.0> but was:<79.0>
+	at ru.raiffeisen.training.AppTest2.testSummatorFromFile(AppTest2.java:41)
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.raiffeisen.training.AppTest2" time="0.144" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\training\trainingday12Junit\target\test-classes;C:\training\trainingday12Junit\target\classes;C:\Users\ruatyaj\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ruatyaj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+06:00"/>
+    <property name="user.country.format" value="RU"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ruatyaj\AppData\Local\Temp\surefire6771065930614330503\surefirebooter2559360273473024349.jar C:\Users\ruatyaj\AppData\Local\Temp\surefire6771065930614330503 2018-11-21T11-39-41_647-jvmRun1 surefire4635976478822530036tmp surefire_017491368018756739tmp"/>
+    <property name="surefire.test.class.path" value="C:\training\trainingday12Junit\target\test-classes;C:\training\trainingday12Junit\target\classes;C:\Users\ruatyaj\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ruatyaj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="test" value="ru.raiffeisen.training.AppTest2"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ruatyaj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_51\jre"/>
+    <property name="basedir" value="C:\training\trainingday12Junit"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ruatyaj\AppData\Local\Temp\surefire6771065930614330503\surefirebooter2559360273473024349.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_51\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_51-b16"/>
+    <property name="user.name" value="ruatyaj"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ruatyaj\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ruatyaj\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2018.2"/>
+    <property name="java.version" value="1.8.0_51"/>
+    <property name="user.dir" value="C:\training\trainingday12Junit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="ru"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Norskale\Norskale Agent Host\;C:\Program Files\PuTTY\;C:\Program Files (x86)\HPE\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\IBM\WebSphere MQ\bin64;C:\Program Files (x86)\IBM\WebSphere MQ\bin;C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\maven;C:\Applications\Atlassian\atlassian-plugin-sdk-6.3.10\apache-maven-3.2.1;\bin;C:\Program Files\Python;C:\Program Files (x86)\Common Files\Citrix\System32;C:\Program Files\curl\bin;C:\Program Files\groovy\groovy-3.0.0-alpha-3\bin;C:\Users\ruatyaj\AppData\Local\Programs\Fiddler;C:\Applications\Atlassian\atlassian-plugin-sdk-6.3.10\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.51-b03"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testSummatorFromFile[0]" classname="ru.raiffeisen.training.AppTest2" time="0.006"/>
+  <testcase name="testSummatorFromFile[1]" classname="ru.raiffeisen.training.AppTest2" time="0"/>
+  <testcase name="testSummatorFromFile[2]" classname="ru.raiffeisen.training.AppTest2" time="0"/>
+  <testcase name="testSummatorFromFile[3]" classname="ru.raiffeisen.training.AppTest2" time="0.02">
+    <failure message="expected:&lt;190.0&gt; but was:&lt;79.0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<190.0> but was:<79.0>
+	at ru.raiffeisen.training.AppTest2.testSummatorFromFile(AppTest2.java:41)
+]]></failure>
+  </testcase>
+  <testcase name="testSummatorFromFile[4]" classname="ru.raiffeisen.training.AppTest2" time="0"/>
+</testsuite>
