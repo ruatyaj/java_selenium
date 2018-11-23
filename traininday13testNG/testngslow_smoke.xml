@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite_Slow">
+
+    <test name="test03">
+
+        <groups>
+            <define name="fast_highPriority">
+                <include name="slow"></include>
+            </define>
+            <run>
+                <include name="slow"></include>
+            </run>
+
+        </groups>
+
+        <packages>
+            <package name="ru.raiffeisen.training"></package>
+        </packages>
+        <classes>
+            <class name="ru.raiffeisen.training.AppTest3"></class>
+            <class name="ru.raiffeisen.training.AppTest"></class>
+            <class name="ru.raiffeisen.training.AppTest2"></class>
+        </classes>
+
+    </test>
+
+
+</suite>

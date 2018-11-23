@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite_Fast">
+
+    <test name="test02">
+
+        <groups>
+            <define name="fast_highPriority">
+                <include name="fast"></include>
+                <include name="highPriority"></include>
+            </define>
+            <run>
+                <include name="fast"></include>
+            </run>
+
+        </groups>
+        <classes>
+            <class name="ru.raiffeisen.training.AppTest2"></class>
+
+            <class name="ru.raiffeisen.training.AppTest"></class>
+        </classes>
+
+    </test>
+
+
+</suite>

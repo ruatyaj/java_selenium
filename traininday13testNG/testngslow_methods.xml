@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite_Method">
+
+    <test name="test04">
+
+        <classes>
+
+            <class name="ru.raiffeisen.training.AppTest2">
+                <methods>
+                    <exclude name="testCase04"></exclude>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+
+
+</suite>

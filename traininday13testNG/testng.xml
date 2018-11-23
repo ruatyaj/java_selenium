@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite01">
+
+    <parameter name="gree4" value="RERE"></parameter>
+    <parameter name="greee2" value="JOJO"></parameter>
+    <parameter name="data1" value="55545"></parameter>
+    <parameter name="p" value="0.5"></parameter>
+
+    <test name="test01">
+        <classes>
+            <class name="ru.raiffeisen.training.AppTest2"></class>
+
+            <class name="ru.raiffeisen.training.AppTest"></class>
+        </classes>
+    </test>
+    <test name="test02">
+        <parameter name="greee8" value="FUCK"></parameter>
+        <parameter name="greee4" value="RERE"></parameter>
+        <classes>
+            <class name="ru.raiffeisen.training.AppTest3"></class>
+        </classes>
+    </test>
+
+
+</suite>
